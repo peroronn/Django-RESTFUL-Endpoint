@@ -1,8 +1,13 @@
-python -m venv midterm
-.\midterm\Scripts\activate
+python -m venv RestfulEndpoint
+
+.\RestfulEndpoint\Scripts\activate
+
 pip install -r requirements.txt
+
 cd carpark_system
+
 python manage.py makemigrations carpark 
+
 python manage.py migrate
 
 ### load csv file
