@@ -1,5 +1,5 @@
-python -m venv SimpleRestfulEndpoint
-.\SimpleRestfulEndpoint\Scripts\activate
+python -m venv RestfulEndpoint
+.\RestfulEndpoint\Scripts\activate
 pip install -r requirements.txt
 cd carpark_system
 python manage.py makemigrations carpark 
