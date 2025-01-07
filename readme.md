@@ -1,5 +1,5 @@
-python -m venv midterm
-.\midterm\Scripts\activate
+python -m venv SimpleRestfulEndpoint
+.\SimpleRestfulEndpoint\Scripts\activate
 pip install -r requirements.txt
 cd carpark_system
 python manage.py makemigrations carpark 
